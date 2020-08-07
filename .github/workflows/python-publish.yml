@@ -1,7 +1,7 @@
 name: pypi
 
 on:
-  release: '1'
+  release: 1.0.0
     types: [created]
 
 jobs:
