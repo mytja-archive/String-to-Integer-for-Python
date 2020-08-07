@@ -4,7 +4,7 @@
 name: Upload Python Package
 
 on:
-  release:
+  release: 1.0
     types: [created]
 
 jobs:
