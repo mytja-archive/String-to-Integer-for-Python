@@ -37,6 +37,8 @@ def StrToInt(string):
         print(i)
         intcount = intcount + 1
     i = string.lower()
+
+    ## English
     if i=="zero":
         integers.append(0)
     elif string=="one":
@@ -59,7 +61,37 @@ def StrToInt(string):
         integers.append(9)
     elif string=="ten":
         integers.append(10)
-    else:
-        return "This string contains unvalid symbols. Check if you have symbols or unvalid letters in string."
+    elif string=="eleven":
+        integers.append(11)
+
+    ## German
+
+    if i=="null":
+        integers.append(0)
+    elif string=="einz":
+        integers.append(1)
+    elif string=="zwei":
+        integers.append(2)
+    elif string=="drei":
+        integers.append(3)
+    elif string=="vier":
+        integers.append(4)
+    elif string=="funf":
+        integers.append(5)
+    elif string=="sechs":
+        integers.append(6)
+    elif string=="sieben":
+        integers.append(7)
+    elif string=="acht":
+        integers.append(8)
+    elif string=="neun":
+        integers.append(9)
+    elif string=="zehn":
+        integers.append(10)
+    elif string=="elf":
+        integers.append(11)
+    elif string=="zwolf":
+        integers.append(11)
+    
     intfinal = convert(integers)
     return intfinal
