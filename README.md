@@ -1,5 +1,8 @@
 # String-to-Integer-for-Python
 
+# Note
+As of 28.1.2020, this library is unmaintained, archived and retired. It will not recieve any updates. It is replaced with already-included in Python `int()` function.
+
 Example code:
 ```
 import StrToInt as sti
